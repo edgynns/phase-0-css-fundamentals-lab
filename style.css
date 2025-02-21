@@ -1,5 +1,64 @@
+/* General Styles */
 body {
-  width: 100%;
-  height: 100%;
+  font-family: Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  padding: 10px;
+  background-color: grey;
+}
+
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: darkgrey;
+  margin: 5px;
+  display: inline-block;
+}
+
+/* Featured Image */
+img {
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+}
+
+/* Image Caption */
+figcaption {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Text Block */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Details Section */
+#details {
+  display: flex;
+  justify-content: center;
+}
+
+#details div {
+  width: 25%;
+  text-align: center;
+  background-color: lightgrey;
+  padding: 15px;
+  box-sizing: border-box;
 }
